@@ -5,7 +5,7 @@ export const Search = () => {
 	const [results, setResults] = useState<Array<IMovie>>([]);
 	const [query, setQuery] = useState<string>('');
 
-	const handleChange = async (input: string) => {
+	const handleChange = (input: string) => {
 		setQuery(input)
 	}
 
